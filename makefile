@@ -3,3 +3,6 @@ relatorio.pdf: relatorio.tex relatorio.bib
 	bibtex relatorio
 	pdflatex relatorio.tex
 	pdflatex relatorio.tex
+
+clean:
+	rm relatorio.pdf relatorio.aux relatorio.log relatorio.bbl relatorio.blg
